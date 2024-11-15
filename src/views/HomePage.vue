@@ -1,8 +1,8 @@
 <!-- Le composant principal dans lequel va s'imbriquer tous les autre composant  -->
 
 <script setup>
-//On importe les méthodes vue, la méthode du fetch réalisé dans le js APIrequest ainsi que nos composant header et meubleCard
-import {onMounted} from 'vue';
+// On importe les méthodes vue, la méthode du fetch réalisé dans le js APIrequest ainsi que nos composant header et meubleCard
+// import {onMounted} from 'vue';
 import { fetchMeubles } from "../APIrequest.js";
 import Form from '@/components/Form.vue';
 import Header from "../components/Header.vue";
